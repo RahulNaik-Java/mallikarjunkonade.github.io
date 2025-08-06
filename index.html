@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallikarjun K - Profile</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light gray background */
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: #4f46e5; /* Indigo color for underline */
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-8 rounded-b-lg">
+        <div class="container flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold text-indigo-700 mb-2 md:mb-0">Mallikarjun K</div>
+            <nav class="space-x-4">
+                <a href="#about" class="text-gray-700 hover:text-indigo-600 transition duration-300">About</a>
+                <a href="#skills" class="text-gray-700 hover:text-indigo-600 transition duration-300">Skills</a>
+                <a href="#projects" class="text-gray-700 hover:text-indigo-600 transition duration-300">Projects</a>
+                <a href="#contact" class="text-gray-700 hover:text-indigo-600 transition duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container py-8">
+        <!-- Hero Section -->
+        <section id="hero" class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-8 md:p-12 rounded-lg shadow-xl flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0 md:space-x-12 mb-12">
+            <div class="flex-shrink-0">
+                <img src="https://placehold.co/180x180/6366f1/ffffff?text=MK" alt="Mallikarjun K" class="rounded-full border-4 border-white shadow-lg w-32 h-32 md:w-44 md:h-44 object-cover">
+            </div>
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-2 leading-tight">Hello, I'm Mallikarjun K</h1>
+                <p class="text-xl md:text-2xl font-light opacity-90">Professor | Lecturer | Innovator</p>
+                <div class="mt-6">
+                    <a href="#contact" class="inline-block bg-white text-indigo-600 hover:bg-indigo-100 px-6 py-3 rounded-full font-semibold shadow-lg transition duration-300 transform hover:scale-105">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="bg-white p-8 md:p-10 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 section-title mb-8">About Me</h2>
+            <div class="prose max-w-none text-gray-700 leading-relaxed">
+                <p class="mb-4">
+                    I am a dedicated and results-driven Software Engineer with a strong passion for building innovative and scalable web applications. With a solid foundation in front-end and back-end technologies, I thrive in dynamic environments where I can contribute to meaningful projects and continuously learn new skills.
+                </p>
+                <p>
+                    My expertise lies in developing user-centric solutions, optimizing performance, and collaborating effectively within cross-functional teams. I am always eager to tackle new challenges and contribute to impactful technological advancements.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="bg-white p-8 md:p-10 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 section-title mb-8">My Skills</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                <!-- Skill Card -->
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/4f46e5/ffffff?text=JS" alt="JavaScript" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">JavaScript</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/38bdf8/ffffff?text=RC" alt="React" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">React.js</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/22c55e/ffffff?text=ND" alt="Node.js" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">Node.js</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/ef4444/ffffff?text=PY" alt="Python" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">Python</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/fbbf24/ffffff?text=HT" alt="HTML5" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">HTML5</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/10b981/ffffff?text=CS" alt="CSS3" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">CSS3</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/6366f1/ffffff?text=TW" alt="Tailwind CSS" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">Tailwind CSS</span>
+                </div>
+                <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/40x40/dc2626/ffffff?text=DB" alt="Databases" class="w-10 h-10 mb-2">
+                    <span class="font-medium text-gray-800">Databases</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-white p-8 md:p-10 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 section-title mb-8">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/a78bfa/ffffff?text=Project+1" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">E-commerce Platform</h3>
+                        <p class="text-gray-600 text-sm mb-4">Developed a full-stack e-commerce solution with user authentication, product catalog, and payment gateway integration.</p>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium text-sm">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/818cf8/ffffff?text=Project+2" alt="Project 2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Task Management App</h3>
+                        <p class="text-gray-600 text-sm mb-4">Built a responsive task management application with real-time updates and collaborative features.</p>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium text-sm">View Project &rarr;</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <img src="https://placehold.co/600x400/c4b5fd/ffffff?text=Project+3" alt="Project 3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">Blog Content Platform</h3>
+                        <p class="text-gray-600 text-sm mb-4">Created a content management system for a blog, featuring rich text editing and categorization.</p>
+                        <a href="#" class="text-indigo-600 hover:text-indigo-800 font-medium text-sm">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white p-8 md:p-10 rounded-lg shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 section-title mb-8">Get in Touch</h2>
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <p class="text-gray-700 mb-4">
+                        Have a question, a project idea, or just want to say hello? Feel free to reach out!
+                    </p>
+                    <div class="space-y-3 text-gray-700">
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+                            <a href="mailto:mallikarjunk@example.com" class="hover:underline">mallikarjunk@example.com</a>
+                        </p>
+                        <p class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                            </svg>
+                            Bengaluru, India
+                        </p>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="your@example.com">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Your message..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 px-6 md:px-8 rounded-t-lg">
+        <div class="container text-center text-sm">
+            &copy; 2025 Mallikarjun K. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
